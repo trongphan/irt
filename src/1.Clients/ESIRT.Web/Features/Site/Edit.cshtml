@@ -1,0 +1,29 @@
+﻿@model ESIRT.Core.NewSite
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+<form asp-action="Edit">
+    <div asp-validation-summary="All" class="text-danger"></div>
+   
+    <div class="form-group">
+        <label asp-for="Name" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <input asp-for="Name" class="form-control" />
+
+        </div>
+    </div>
+   
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

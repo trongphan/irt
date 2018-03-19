@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4860AED8-AA5B-4877-814A-80717C494141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{190C4DCE-66D1-4E43-9CB2-A2B744A682DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D579084C-5A9C-4915-9267-2690D8FFC746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESIRT.Web", "src\1.Clients\ESIRT.Web\ESIRT.Web.csproj", "{592A9773-3880-4674-B924-EB6DF74C0702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESIRT.Core", "ESIRT.Core\ESIRT.Core.csproj", "{9E89F384-F7E5-4B60-84A7-16AC1227904B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{592A9773-3880-4674-B924-EB6DF74C0702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592A9773-3880-4674-B924-EB6DF74C0702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592A9773-3880-4674-B924-EB6DF74C0702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592A9773-3880-4674-B924-EB6DF74C0702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E89F384-F7E5-4B60-84A7-16AC1227904B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E89F384-F7E5-4B60-84A7-16AC1227904B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E89F384-F7E5-4B60-84A7-16AC1227904B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E89F384-F7E5-4B60-84A7-16AC1227904B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{592A9773-3880-4674-B924-EB6DF74C0702} = {190C4DCE-66D1-4E43-9CB2-A2B744A682DD}
+		{9E89F384-F7E5-4B60-84A7-16AC1227904B} = {190C4DCE-66D1-4E43-9CB2-A2B744A682DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {420D13D4-5AEB-492F-A809-277E2FCDA1A5}
+	EndGlobalSection
+EndGlobal
